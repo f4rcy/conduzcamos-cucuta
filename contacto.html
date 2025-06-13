@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contáctanos - Conduzcamos Cúcuta</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header>
+  <div class="header-container">
+    <div class="logo">
+      <img src="imagen/logo.png" alt="Logo Conduzcamos" />
+      <span class="slogan">¡SU VIDA TAMBIÉN IMPORTA!</span>
+    </div>
+
+    <!-- Botón hamburguesa -->
+    <button class="menu-toggle" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav id="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="licencias.html">Licencias</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Contáctanos</h1>
+    <p>Estamos listos para atenderte</p>
+  </div>
+</section>
+
+<section class="section contact-cards">
+  <h2 class="section-title">Información de contacto</h2>
+
+  <div class="contact-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 900px; margin: auto;">
+
+    <div class="contact-card">
+      <i class="fas fa-map-marker-alt fa-2x" style="color: var(--primary); margin-bottom: 10px;"></i>
+      <h3>Dirección</h3>
+      <p>Av. 3 #6-54, Redoma Silla Coja<br>San Luis - Cúcuta</p>
+    </div>
+
+    <div class="contact-card">
+      <i class="fas fa-phone-alt fa-2x" style="color: var(--primary); margin-bottom: 10px;"></i>
+      <h3>Teléfono</h3>
+      <p>315 489 9116</p>
+    </div>
+
+    <div class="contact-card">
+      <i class="fas fa-envelope fa-2x" style="color: var(--primary); margin-bottom: 10px;"></i>
+      <h3>Email</h3>
+      <p>info@conduzcamoscucuta.com</p>
+    </div>
+
+  </div>
+
+  <div class="horario-info" style="text-align: center; margin-top: 40px;">
+    <i class="fas fa-clock fa-2x" style="color: var(--primary); margin-bottom: 10px;"></i>
+    <h3>Horario de Atención</h3>
+    <p>Lunes a Viernes: 7:00 AM - 6:00 PM</p>
+    <p>Sábados: 8:00 AM - 12:00 PM</p>
+  </div>
+</section>
+
+
+<section class="section redes-contacto">
+  <h2 class="section-title">Síguenos en redes sociales</h2>
+  <div class="social-card-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px; max-width: 900px; margin: auto;">
+
+    <div class="social-card">
+      <i class="fab fa-facebook fa-2x" style="color: #3b5998;"></i>
+      <h3>Facebook</h3>
+      <a href="https://www.facebook.com/conduzcamoscucuta" class="btn" target="_blank">Ver perfil</a>
+    </div>
+
+    <div class="social-card">
+      <i class="fab fa-instagram fa-2x" style="color: #e1306c;"></i>
+      <h3>Instagram</h3>
+      <a href="https://www.instagram.com/conduzcamoscucuta/" class="btn" target="_blank">Ver perfil</a>
+    </div>
+
+    <div class="social-card">
+      <i class="fab fa-whatsapp fa-2x" style="color: #25d366;"></i>
+      <h3>WhatsApp</h3>
+      <a href="https://wa.me/573154899116" class="btn" target="_blank">Escríbenos</a>
+    </div>
+
+    <div class="social-card">
+      <i class="fas fa-link fa-2x" style="color: #111;"></i>
+      <h3>Linktree</h3>
+      <a href="https://linktr.ee/conduzcamoscucuta" class="btn" target="_blank">Ver enlaces</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="rate-box">
+    <h3>¿Te gustó nuestra atención?</h3>
+    <a href="https://www.google.com/maps/place/Escuela+de+Conducción+Conduzcamos+%7C+Licencia+de+Conducción+en+Cúcuta/@7.898149,-72.4818883,17z" 
+       class="btn" target="_blank" rel="noopener">
+      Déjanos tu opinión en Google
+    </a>
+  </div>
+</section>
+
+<section class="section map-section">
+  <h2 class="section-title">Ubícanos</h2>
+  <div class="map-container" style="max-width: 1000px; margin: auto;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.970516788023!2d-72.4818883!3d7.898149000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e664512f48999ab%3A0xfbf03591e2e7669e!2sEscuela%20de%20Conducción%20Conduzcamos%20%7C%20Licencia%20de%20Conducción%20en%20Cúcuta!5e0!3m2!1ses-419!2sco!4v1749836272968!5m2!1ses-419!2sco" 
+      width="100%" height="400" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<!-- Botón flotante de WhatsApp -->
+<a class="whatsapp-fixed" href="https://wa.me/573154899116" target="_blank">
+  <img src="imagen/wp.png" alt="WhatsApp" />
+</a>
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <h3>Centro de Enseñanza Automovilística CONDUZCAMOS</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Av. 3 #6-54, Redoma Silla Coja, San Luis - Cúcuta</p>
+        <p><i class="fas fa-clock"></i> Horario: Lunes a Viernes 7:00 AM - 6:00 PM</p>
+      </div>
+      <div class="footer-contact">
+        <p><i class="fas fa-mobile-alt"></i> WhatsApp: 315 489 9116</p>
+      </div> 
+      <div class="social-links">
+        <a href="https://www.facebook.com/conduzcamoscucuta" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/conduzcamoscucuta/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/573154899116" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://linktr.ee/conduzcamoscucuta" target="_blank"><i class="fas fa-link"></i></a>
+      </div>
+    </div>
+    <p>© 2025 Todos los derechos reservados</p>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="whatsapp-fixed" href="https://wa.me/573154899116" target="_blank">
+    <img src="imagen/wp.png" alt="WhatsApp" />
+  </a>
+
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById('main-nav');
+    nav.classList.toggle('nav-visible');
+  }
+</script>
+</body>
+</html>
