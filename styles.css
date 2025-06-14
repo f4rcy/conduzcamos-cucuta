@@ -594,8 +594,13 @@ body {
 .instagram-fixed,
 .facebook-fixed {
   position: fixed;
-  right: 20px;
   z-index: 999;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px; /* mismo ancho para todos */
+  height: 55px;
 }
 
 .whatsapp-fixed {
@@ -629,4 +634,9 @@ body {
   height: 55px;
 }
 
+.instagram-fixed img,
+.facebook-fixed img {
+  width: 40px;
+  height: 40px;
+}
 
