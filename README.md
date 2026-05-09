@@ -16,7 +16,7 @@ Sitio web informativo desarrollado para una empresa de conducción en Cúcuta de
 
 # 📸 Vista previa
 
-![Vista previa del sitio](https://via.placeholder.com/1000x500.png?text=Conduzcamos+Cucuta)
+![Vista previa del sitio](img/preview.png)
 
 ---
 
